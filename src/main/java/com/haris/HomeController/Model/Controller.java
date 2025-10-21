@@ -10,6 +10,7 @@ public class Controller {
 @GetMapping ("home")
 
     public String home (HttpServletRequest request){
+    System.out.println("Hello world");
         return "This is my home and my session id: "
                 + request.getRequestedSessionId();
 }
