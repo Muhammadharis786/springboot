@@ -25,6 +25,7 @@ public class Controller {
         list.add("haris");
         list.add("Khan Sahab");
         list.add("Riyaz");
+        list.add("khan baba");
 
         return list;
 
